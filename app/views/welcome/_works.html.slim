@@ -3,21 +3,25 @@ section#portfolio.no-padding
 
     .row.no-gutter.popup-gallery
       .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/01.jpg"
-          img.img-responsive alt="" src="/assets/cakes/01.jpg" /
-      .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/02.jpg"
-          img.img-responsive alt="" src="/assets/cakes/02.jpg" /
-      .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/03.jpg"
-          img.img-responsive alt="" src="/assets/cakes/03.jpg" /
+        .portfolio-box
+          = image_tag "cakes/01.jpg", class: "img-responsive"
 
       .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/06.jpg"
-          img.img-responsive alt="" src="/assets/cakes/06.jpg" /
+        .portfolio-box
+          = image_tag "cakes/02.jpg", class: "img-responsive"
+
       .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/05.jpg"
-          img.img-responsive alt="" src="/assets/cakes/05.jpg" /
+        .portfolio-box
+          = image_tag "cakes/03.jpg", class: "img-responsive"
+
       .col-lg-4.col-sm-6
-        a.portfolio-box href="/assets/cakes/07.jpg"
-          img.img-responsive alt="" src="/assets/cakes/07.jpg" /
+        .portfolio-box
+          = image_tag "cakes/06.jpg", class: "img-responsive"
+
+      .col-lg-4.col-sm-6
+        .portfolio-box
+          = image_tag "cakes/05.jpg", class: "img-responsive"
+
+      .col-lg-4.col-sm-6
+        .portfolio-box
+          = image_tag "cakes/07.jpg", class: "img-responsive"
