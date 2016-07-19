@@ -2,7 +2,8 @@
 //= require bootstrap
 //= require jquery_ujs
 //= require turbolinks
-//= require ./vendor/creative.min
-//= require ./vendor/jquery.magnific-popup.min
-//= require ./vendor/scrollreveal.min
 //= require_tree .
+
+//= require ./vendor/scrollreveal.min
+//= require ./vendor/jquery.magnific-popup.min
+//= require ./vendor/creative.min
