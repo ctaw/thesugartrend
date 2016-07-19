@@ -34,7 +34,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'slim'
 gem 'bootstrap-sass'
-gem 'bootswatch', git: 'git@github.com:fatdude/bootswatch.git'
 gem 'font-awesome-rails'
 
 group :development, :test do

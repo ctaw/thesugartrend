@@ -1,9 +1,3 @@
-GIT
-  remote: git@github.com:fatdude/bootswatch.git
-  revision: f0fd9509e824c774d5eb739f77fa9c94356a54df
-  specs:
-    bootswatch (3.3.6)
-
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -166,7 +160,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
-  bootswatch!
   byebug
   coffee-rails (~> 4.1.0)
   font-awesome-rails
