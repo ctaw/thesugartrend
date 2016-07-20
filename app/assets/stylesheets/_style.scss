@@ -10,6 +10,7 @@ body {
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
 }
 hr {
   border-color: #F05F40;
@@ -18,6 +19,7 @@ hr {
 }
 hr.light {
   border-color: white;
+  margin-top: 30px;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -51,6 +53,7 @@ p {
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 1px;
 }
 section {
   padding: 100px 0;
@@ -125,24 +128,24 @@ aside {
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
-  .navbar-default.affix {
+  .top-nav-collapse {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
-  .navbar-default.affix .navbar-header .navbar-brand {
+  .top-nav-collapse .navbar-header .navbar-brand {
     color: #F05F40;
     font-size: 14px;
   }
-  .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
+  .top-nav-collapse .navbar-header .navbar-brand:hover,
+  .top-nav-collapse .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
-  .navbar-default.affix .nav > li > a,
-  .navbar-default.affix .nav > li > a:focus {
+  .top-nav-collapse .nav > li > a,
+  .top-nav-collapse .nav > li > a:focus {
     color: #222222;
   }
-  .navbar-default.affix .nav > li > a:hover,
-  .navbar-default.affix .nav > li > a:focus:hover {
+  .top-nav-collapse .nav > li > a:hover,
+  .top-nav-collapse .nav > li > a:focus:hover {
     color: #F05F40;
   }
 }

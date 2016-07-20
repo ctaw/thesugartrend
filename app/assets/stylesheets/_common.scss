@@ -1,3 +1,7 @@
+.top-nav-collapse {
+    padding: 0;
+}
+
 .bs-wizard {margin-top: 40px;}
 
 /*Form Wizard*/
@@ -32,4 +36,10 @@
   content:url('#{asset_path('icons/cheesecake.png')}');
   width: 77px;
   height: 56px;
+}
+
+.baker-img {
+  width: 200px;
+  height: 200px;
+  margin:0 auto;
 }
