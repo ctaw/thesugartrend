@@ -9,6 +9,4 @@
 //= require ./vendor/scrolling-nav
 
 //= require ./vendor/jquery.magnific-popup.min
-//= require ./vendor/creative.min
-
 new WOW().init();
