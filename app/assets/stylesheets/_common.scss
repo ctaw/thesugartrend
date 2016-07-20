@@ -1,6 +1,10 @@
 .top-nav-collapse {
     padding: 0;
 }
+.bg-default {
+  background: #edecec;
+}
+.white { color: #fff; font-weight: 500;}
 
 .bs-wizard {margin-top: 40px;}
 
@@ -45,7 +49,7 @@
 }
 
 .social-icon{
-  padding-top: 9px;
+  padding-top: 8px;
   font-size: 16px;
   text-align: center;
   width: 36px;
@@ -60,4 +64,39 @@ a.social-icon:hover, a.social-icon:active, a.social-icon:focus{
   text-decoration: none;
   color: #000;
   border-color: #000;
+}
+
+
+.follow-us-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.follow-us{
+  font-size: 22px;
+  color: #777;
+}
+
+aside#pricing{
+  background-color: #F05F40;
+}
+
+
+.carousel-inner > .item > img{
+ width:640px;
+ height:360px;
+}
+
+footer {
+  background: #222;
+  a.social-icon:hover, a.social-icon:active, a.social-icon:focus{
+    text-decoration: none;
+    color: #F05F40;
+    border-color: #F05F40;
+  }
+  .text-muted {
+    color: #777777;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
 }
