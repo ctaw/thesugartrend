@@ -43,3 +43,21 @@
   height: 200px;
   margin:0 auto;
 }
+
+.social-icon{
+  padding-top: 9px;
+  font-size: 16px;
+  text-align: center;
+  width: 36px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  margin: 10px;
+}
+
+a.social-icon:hover, a.social-icon:active, a.social-icon:focus{
+  text-decoration: none;
+  color: #000;
+  border-color: #000;
+}
