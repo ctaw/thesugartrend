@@ -10,3 +10,7 @@
 
 //= require ./vendor/jquery.magnific-popup.min
 new WOW().init();
+
+$('#myCarousel').carousel({
+  interval: 2000
+});

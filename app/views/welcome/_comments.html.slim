@@ -4,6 +4,8 @@
     li.active data-slide-to="0" data-target="#quote-carousel"
     li data-slide-to="1" data-target="#quote-carousel"
     li data-slide-to="2" data-target="#quote-carousel"
+    li data-slide-to="3" data-target="#quote-carousel"
+    li data-slide-to="4" data-target="#quote-carousel"
   /! Carousel Slides / Quotes
   .carousel-inner
     /! Quote 1
@@ -11,29 +13,51 @@
       blockquote
         .row
           .col-sm-3.text-center
-            = image_tag("client01.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
+            = image_tag("client05.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
           .col-sm-9
-            p Thank you so much Charmaine for all your fantastic work. So yummy!!!
-            small Mielle Cruz
+            p Thank you so much Charmaine for all your fantastic work for our cakes. Our customers really love it!
+            small Cafe Poblacion
+
     /! Quote 2
     .item
       blockquote
         .row
           .col-sm-3.text-center
-            img.img-circle src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style=("width: 100px;height:100px;") /
+            = image_tag("client02.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
           .col-sm-9
-            p Thank you so much Charmaine for all your fantastic work. So yummy!!!
-            small Someone famous
+            p I ordered choco fudge. Very delicious. Simply the best baker!
+            small Cha
+
     /! Quote 3
     .item
       blockquote
         .row
           .col-sm-3.text-center
-            img.img-circle src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style=("width: 100px;height:100px;") /
+            = image_tag("client03.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
           .col-sm-9
-            p Thank you so much Charmaine for all your fantastic work. So yummy!!!
-            small Someone famous
-            
+            p I surely recommend this cake to my friends. 5 stars for oreo cheesecake.
+            small CJ
+
+    /! Quote 4
+    .item
+      blockquote
+        .row
+          .col-sm-3.text-center
+            = image_tag("client01.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
+          .col-sm-9
+            p Your cake melted my heart. It was beautiful and delicious!!!!
+            small Mielle Cruz
+
+    /! Quote 3
+    .item
+      blockquote
+        .row
+          .col-sm-3.text-center
+            = image_tag("client04.jpg", class: "img-circle img-responsive wow fadeIn center-block", style:"width:100px;height:100px;")
+          .col-sm-9
+            p Hi The Sugar Trend, I really love your blueberry cheesecake. Very classy :)
+            small MM
+
   /! Carousel Buttons Next/Prev
   a.left.carousel-control data-slide="prev" href="#quote-carousel"
     i.fa.fa-chevron-left

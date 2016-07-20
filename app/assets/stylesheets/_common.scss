@@ -6,6 +6,18 @@
 }
 .white { color: #fff; font-weight: 500;}
 
+.carousel{
+  background: #ffdb4c;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    font-size: 90px;
+}
+
+section#gallery{
+  background: #ffdb4c;
+}
+
 .bs-wizard {margin-top: 40px;}
 
 /*Form Wizard*/
@@ -84,7 +96,7 @@ aside#pricing{
 
 .carousel-inner > .item > img{
  width:640px;
- height:360px;
+ height:400px;
 }
 
 footer {

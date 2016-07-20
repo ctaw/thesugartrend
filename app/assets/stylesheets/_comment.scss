@@ -2,7 +2,10 @@
 #quote-carousel
 {
   padding: 0 10px 30px 10px;
-  margin-top: 30px;
+	position: relative;
+  margin-top: 50px;
+	vertical-align: text-top;
+  background: #ffdb4c;
 }
 
 /* Control buttons  */
@@ -86,7 +89,7 @@
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
 
     #quote-carousel .carousel-indicators {
-        bottom: -20px !important;
+        // bottom: -20px !important;
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
