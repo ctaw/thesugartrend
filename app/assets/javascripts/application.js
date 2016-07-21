@@ -12,5 +12,7 @@
 new WOW().init();
 
 $('#myCarousel').carousel({
-  interval: 2000
+  interval: 3000
 });
+
+$('[data-toggle="tooltip"]').tooltip()
