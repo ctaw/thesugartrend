@@ -135,3 +135,23 @@ footer {
     letter-spacing: 1px;
   }
 }
+
+.baker {
+  border-bottom: 1px solid #222222 !important;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.panel-heading {
+  padding: 2px 15px !important;
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.panel-default {
+  border-color: #222222;
+}
